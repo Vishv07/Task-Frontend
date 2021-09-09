@@ -6,6 +6,11 @@ module.exports = {
 		extensions: ['.js', '.jsx']
 	},
 	entry: './src/index.js',
+	output: {
+		path: path.resolve(__dirname, 'build'), // change this
+		publicPath: '/',
+		filename: 'bundle.js'
+	},
 	devtool: 'inline-source-map',
 	module: {
 		rules: [{
