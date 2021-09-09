@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -25,7 +31,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #40a9ff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +41,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  padding: 40px;
+}
+
+.Mui-selected{
+  color: deepskyblue !important;
+  background-color: white !important;
+  border: 1px solid deepskyblue !important;
+}
+
+ .Mui-checked{
+    color:#40a9ff !important;
+}
+
+.MuiButtonBase-root{
+  height: 30px;
+
 }

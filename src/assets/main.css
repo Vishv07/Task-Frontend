@@ -1,0 +1,50 @@
+.radio-button{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.3em; 
+    margin-left: 1em; 
+}
+
+.err-icon{
+    margin-left: -15px;
+}
+
+.dropdown{
+    margin-top: -20px;
+    width: 300px !important;
+}
+
+.filter{
+    text-align: center;
+    justify-content: center;
+}
+
+.expense-form{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.expense-input{
+    width: 300px !important;
+}
+
+.expense-input-msg{
+     font-size: 13px;
+     color: #B79F9E;
+     line-height: 0%;
+}
+
+.rec-block{
+    padding-left: 1pc;
+    padding-top: 0.02pt;
+    width: 300px;
+    line-height: 0%;
+    height: 60px;
+    background-color: #F6F6F6;
+}
+
+.view-cov{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.3em; 
+}
